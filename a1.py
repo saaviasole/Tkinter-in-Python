@@ -4,7 +4,7 @@ window = tk.Tk()
 
 for i in range(3):
     for j in range(3):
-        frame = tk.frame(
+        frame = tk.Frame(
             master=window,
             relief=tk.RAISED,
             borderwidth=1
